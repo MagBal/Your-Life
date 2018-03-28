@@ -40,30 +40,28 @@ body {
 
 /*jumbotron*/
 /**navigation**/
- .nav ul {
- 	width: 100%;
-  	background: transparent;
+.navbar .navbar-nav {
+  	display: inline-block;
+  	float: none;
+  	vertical-align: top;
+}
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+.nav {
+ 	background: transparent;
   	overflow: hidden;
  	margin: 0;
  	padding: 0;
  	text-align: center;
- 	margin-top: -70px;
- }
- .nav ul li {
-    width: 15%;
+}
+.nav li {
     list-style: none;
     padding: 2px;
-    float: left;
+    margin-right: 40px;
     text-align: center;
     background: rgba(255,20,20,0);
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
 }
-.nav li:first-child {
-	margin-left: 12.5%;
-} 
 .nav li a {
 	text-decoration: none;
 	color:  #fff;
@@ -73,9 +71,14 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 7px;
 	text-shadow: 2px 2px #000;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+	transition: all .3s;
 }
 .nav li a:hover {
-     color: #0066ff;
+    color: #0066ff;
+    background: rgba(255,20,20,0);
 }
 .nav li img {
 	width: 53px;
@@ -91,6 +94,8 @@ body {
 	background-size: cover;
 	height: 100vh;
 	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 .jumbotron h1 {
 	color: #fff;
@@ -135,21 +140,24 @@ body {
 }
 .jumbotron i {
 	color: #FFF;
-	padding: 8px;
+	padding: 10px;
 	transition: all 0.4s;
 }
 .jumbotron i:hover {
+	transform: scale(1.2);
 	color: #0066ff;
 	cursor: pointer;
 }
 .icon {
 	position: absolute;
-	bottom: 20px;
-	left: 45%;
+	top: 85vh;
+	left: 50%;
+  	transform: translateX(-50%);
 }
 
 /*simple photo*/
 .simple_photo {
+	padding-top: 0;
 	margin-top: 0;
 	padding-left: 20vw;
 	background-color: #f5f6f7;
