@@ -90,6 +90,7 @@ body {
 .jumbotron {
 	background-image: url("https://i.imgur.com/UUc7IMG.png");
 	background-position: center center;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -161,7 +162,7 @@ body {
 	margin-top: 0;
 	padding-left: 20vw;
 	background-color: #f5f6f7;
-	height: 480px;
+	height: 550px;
 }
 .simple.text {
 	padding: 100px 50px;
@@ -173,7 +174,7 @@ body {
 	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 } 
 .simple p {
@@ -209,27 +210,34 @@ body {
 }
 .simple img {
 	position: absolute;
-	height: 440px;
+	height: 500px;
 	left: 46%;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 /*design*/
+
 .mySlides1 {
-	height: 330px;
+	height: 450px;
 	position: relative;
 }
-.design_phone {
-	padding-top: 100px;
+.img_phone {
+	z-index: 0;
+	position: absolute;
+	left: 20vw;
+	margin-top: 52px;
 }
-.phone img {
-	float: left;
-	margin-left: 20vw;
+.mySlides1 img {
+	position: absolute;
+	bottom: 0;
+	left: 21.1vw;
+	width: 261px;
 }
 .mySlides1, .mySlides2 {
 	display: none
 }
-.mySlides1 h1 {
+.text h1 {
+	margin-top: 100px;
 	color: #16a085;
 	font-size: 18px;
 	font-weight: 700;
@@ -239,7 +247,7 @@ body {
 	margin-bottom: 30px;
 	letter-spacing: 5px;
 }
-.mySlides1 p {
+.text p {
 	color:  #373737;
 	font-size: 12px;
 	font-weight: 300;
@@ -248,11 +256,12 @@ body {
 	letter-spacing: 1px;
 	margin-bottom: 35px;
 }
-.mySlides1 button {
+.text button {
 	background-color:  #16a085;
 	width: 192px;
 	height: 51px;
 	text-transform: uppercase;
+	border-radius: 3px;
 	color:  #fff;
 	font-size: 12px;
 	font-weight: 700;
@@ -261,19 +270,21 @@ body {
 	float: left;
 	border: none;
 }
-.mySlides1 button:hover {
+.text button:hover {
 	background-color: #D0ECE6;
 	color: #000;
 }
 .mySlides1 h4 {
 	position: absolute;
-	margin-top: 13vh;
+	margin-top: 28vh;
+	margin-left: 100%;
 	font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
 }
 .first_slides_nav {
-	float: left;
+	position: absolute;
+	margin-top: 90px;
 }
 
 .first_slides_nav a.prev, .first_slides_nav a.next {
@@ -297,20 +308,19 @@ body {
 	width: 59px;
 	height: 55px;
 	text-align: center;
-	margin: 0 auto;
-	margin-top: 5%;
-	
+	margin-top: 10%;
+	margin-left: 10vw;
 }
 .our_text h2 {
 	color: #373737;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 20px;
-	margin: 0 auto;
+	margin-left: 10vw;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding-top: 5%;
+	padding-top: 20px;
 }
 .our_text p {
 	color:  #373737;
@@ -318,12 +328,13 @@ body {
 	font-weight: 700;
 	margin: 0 auto;
 	text-align: center;
-	letter-spacing: 1px;
-	padding-top: 3%;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	margin-left: 10vw;
 }
 .gallery {
 	position: relative;
-	width: 900px;
+	width: 1000px;
     float: left;
     margin-top: 60px;
 }
@@ -342,7 +353,7 @@ body {
 	margin-left: 10px;
 }
 .mySlides2 img {
-    width: 450px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
  }
@@ -351,6 +362,7 @@ body {
 .subscribe {
 	background-image: url("https://i.imgur.com/9YUm1H6.png");
 	background-position: center center;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -364,7 +376,7 @@ div .hand_input {
 	font-size: 24px;
 	font-weight: 700;
 	text-align: center;
-	margin-top: 330px;
+	margin-top: 40vh;
 	letter-spacing: 3px;
 	margin-bottom: 40px;
 }

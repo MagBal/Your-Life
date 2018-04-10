@@ -21,4 +21,3 @@ function showSlides(n, nd) {
   x[slideIndex[nd]-1].style.display = "block"; 
 }
 
-
