@@ -163,7 +163,7 @@ body {
 	background-color: #f5f6f7;
 	height: 550px;
 }
-.simple.text {
+.text_simple {
 	padding: 100px 50px;
 }
 .simple h1 {
@@ -235,7 +235,7 @@ body {
 .mySlides1, .mySlides2 {
 	display: none
 }
-.text h1 {
+.describe h1 {
 	margin-top: 100px;
 	color: #16a085;
 	font-size: 18px;
@@ -246,7 +246,7 @@ body {
 	margin-bottom: 30px;
 	letter-spacing: 5px;
 }
-.text p {
+.describe p {
 	color:  #373737;
 	font-size: 12px;
 	font-weight: 300;
@@ -255,7 +255,7 @@ body {
 	letter-spacing: 1px;
 	margin-bottom: 35px;
 }
-.text button {
+.describe button {
 	background-color:  #16a085;
 	width: 192px;
 	height: 51px;
@@ -269,7 +269,7 @@ body {
 	float: left;
 	border: none;
 }
-.text button:hover {
+.describe button:hover {
 	background-color: #D0ECE6;
 	color: #000;
 }
@@ -592,6 +592,11 @@ input::placeholder {
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 
+    /*simple_photo*/
+    .simple img {
+		left: 50%;
+	}
+
     /*design*/
 	.img_phone {
 		margin-bottom: 0;
@@ -667,7 +672,7 @@ input::placeholder {
 		padding-left: 20vw;
 		height: 440px;
 	}
-	.simple.text {
+	.text_simple {
 		padding: 100px 50px;
 	}
 	.simple h1 {
@@ -747,6 +752,89 @@ input::placeholder {
     }
 }
 
+@media (max-width: 1025px) {
+    /* For tablets, laptop: */
+    .col-ms-1 {width: 8.33%;}
+    .col-ms-2 {width: 16.66%;}
+    .col-ms-3 {width: 25%;}
+    .col-ms-4 {width: 33.33%;}
+    .col-ms-5 {width: 41.66%;}
+    .col-ms-6 {width: 50%;}
+    .col-ms-7 {width: 58.33%;}
+    .col-ms-8 {width: 66.66%;}
+    .col-ms-9 {width: 75%;}
+    .col-ms-10 {width: 83.33%;}
+    .col-ms-11 {width: 91.66%;}
+    .col-ms-12 {width: 100%;}
+
+	/*simple photo*/
+	.simple_photo {
+		padding-left: 10vw;
+		padding-top: 0;
+		margin-top: 0;
+		height: 420px;
+	}
+	.text_simple {
+		padding-right: 15px;
+	}
+	.text_simple h1 {
+		padding-bottom: 5px;
+		margin-top: 0;
+		padding-top: 0;
+	} 
+	.text_simple p {
+		padding-bottom: 10px;
+	}
+	.simple img {
+		height: 380px;
+		width: 550px;
+		left: 40%;
+		margin-top: 40px;
+	}
+
+    /*design*/
+	.mySlides1 {
+		height: 450px;
+	}
+	.img_phone {
+		left: 10vw;
+		margin-top: 52px;
+	}
+	.mySlides1 img {
+		left: 12.65vw;
+	}
+	.describe h1 {
+		margin-top: 100px;
+	}
+	.mySlides1 h4 {
+		margin-top: 46.3vh;
+	}
+	.first_slides_nav {
+		margin-top: 85px;
+	}
+
+	/*our_community*/
+	.our_text img {
+		margin-top: 30%;
+		padding-top: 10px;
+	}
+	.gallery {
+		width: 600px;
+    	margin-top: 40px;
+	}
+	.second_slides_nav {
+		margin-bottom: 20px;
+	}
+	.mySlides2 img {
+    	width: 300px;
+    	height: 220px;
+    }
+
+    /*footer*/
+	.footer_nav {
+		padding-left: 10vw;
+	}
+}
 
 @media (max-width: 991px) {
     /* For tablets: */
@@ -767,7 +855,133 @@ input::placeholder {
 		float: none;
 	}
 	
+	/*simple_photo*/
+	.simple_photo {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0;
+		height: auto;
+	}
+	.image {
+		background-color: #f5f6f7;
+		height: 460px;
+		padding-top: 50px;
+	}
+	.image img {
+		height: 400px;
+		width: 600px;
+		left: 5vw;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+		
+	/*design*/
+	.design_phone {
+		height: 70vh;
+	}
+	.img_phone {
+		left: 30vw;
+		margin-top: 52px;
+	}
+	.mySlides1 img {
+		left: 33.5vw;
+	}
+	.describe h1 {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.describe p {
+		text-align: center;
+	}
+	.describe button {
+		float: none;
+	}
+	.mySlides1 h4 {
+		top: 14vh;
+		left: -52vw;
+	}
+	.first_slides_nav {
+		margin-top: 60px;
+		left: 45.55vw;
+	}
 	
+	/*our_community*/
+	.our_community {
+		height: 80vh;
+	}
+	.our_text img {
+		
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.mySlides2 img {
+    	width: 500px;
+    	height: 300px;
+    }
+
+
+    
+.our_text h2 {
+	
+	margin-left: 0;
+	
+}
+.our_text p {
+	
+	
+	margin-left: 0;
+}
+.gallery {
+	width: 500px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.second_slides_nav {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.mySlides2 img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    
+ }
+	
+	/*footer*/
+ 	.download {
+ 		height: 35vh;
+ 	}
+ 	.download p {
+ 		padding-bottom: 10px;
+ 	}
+ 	.storeAp {
+		justify-content: center;
+		padding-bottom: 30px;
+	}
+	.storeAn {
+		justify-content: center;
+	}	
+	.download button.apple {
+		margin-right: 0;
+	}
+	.download button.btn-android {
+		margin-left: 0;
+	}
+	.footer img {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 65px;
+		height: 71px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -831,15 +1045,3 @@ input::placeholder {
    
    
 }
-	
-	
-	
-
-
-
-
-
-
-    
-
-
