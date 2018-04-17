@@ -7,3 +7,5 @@ HTML
 CSS
 GRID
 JavaScript
+
+https://magbal.github.io/Your-Life/
