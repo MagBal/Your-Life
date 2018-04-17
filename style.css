@@ -40,6 +40,9 @@ body {
 
 /*jumbotron*/
 /**navigation**/
+.navbar {
+	height: 100px;
+}
 .navbar .navbar-nav {
   	display: inline-block;
   	float: none;
@@ -226,7 +229,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	bottom: 0;
-	left: 21.1vw;
+	left: 20.95vw;
 	width: 261px;
 }
 .mySlides1, .mySlides2 {
@@ -251,6 +254,7 @@ body {
 	text-align: left;
 	letter-spacing: 1px;
 	margin-bottom: 35px;
+	padding-right: 10vw;
 }
 .describe button {
 	background-color:  #16a085;
@@ -272,7 +276,7 @@ body {
 }
 .mySlides1 h4 {
 	position: absolute;
-	margin-top: 28vh;
+	margin-top: 360px;
 	margin-left: 100%;
 	font-size: 16px;
     font-weight: 700;
@@ -405,7 +409,6 @@ input::placeholder {
 	width: 63px;
 	cursor: pointer;
 }
-
 
 /*download*/
 .download {
@@ -558,9 +561,12 @@ input::placeholder {
 		left: 21.35vw;
 	}
 	.mySlides1 h4 {
-		margin-top: 45vh;
+		top: -40px;
 	}
-	
+	.first_slides_nav {
+		margin-top: 140px;
+	}
+
 	/*our_community*/
 	.gallery {
 		width: 800px;
@@ -569,9 +575,7 @@ input::placeholder {
     	width: 400px;
     	height: 250px;
     }
-    .mySlides1 h4 {
-		margin-top: 30vh;
-	}
+    
 }
 
 @media (max-width: 1680px) {
@@ -602,9 +606,12 @@ input::placeholder {
 		left: 21.55vw;
 	}
 	.mySlides1 h4 {
-		margin-top: 35vh;
+		margin-top: 32vh;
 	}
-	
+	.first_slides_nav {
+		margin-top: 120px;
+	}
+
 	/*our_community*/
 	.gallery {
 		width: 700px;
@@ -612,7 +619,7 @@ input::placeholder {
 	.mySlides2 img {
     	width: 350px;
     }
-    
+ 
 }
 
 @media (max-width: 1600px) {
@@ -635,9 +642,11 @@ input::placeholder {
 		left: 21.65vw;
 	}
 	.mySlides1 h4 {
-		margin-top: 40vh;
+		margin-top: 38vh;
 	}
-
+	.first_slides_nav {
+		margin-top: 100px;
+	}
 	/*our_community*/
 	.gallery {
 		width: 700px;
@@ -724,10 +733,10 @@ input::placeholder {
 
     /*design*/
 	.mySlides1 img {
-		left: 21.95vw;
+		left: 22.1vw;
 	}
 	.mySlides1 h4 {
-		margin-top: 35vh;
+		top: 60px;
 	}
 
 	/*our_community*/
@@ -738,10 +747,10 @@ input::placeholder {
 		margin-top: 15%;
 	}
 	.gallery {
-		width: 630px;
+		width: 600px;
  	}
 	.mySlides2 img {
-    	width: 315px;
+    	width: 300px;
     	height: 200px;
     }
 }
@@ -867,6 +876,7 @@ input::placeholder {
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-left: 8vw;
+		padding-top: 50px;
 		height: auto;
 	}
 	.image {
@@ -884,32 +894,30 @@ input::placeholder {
 		
 	/*design*/
 	.design_phone {
-		height: 70vh;
+		min-height: 900px;
+		padding-left: 8vw;
 	}
 	.img_phone {
 		left: 30vw;
-		margin-top: 52px;
+		margin-top: 55px;
 	}
 	.mySlides1 img {
-		left: 33.5vw;
+		left: 25.5vw;
+		top: 13.55vh;
 	}
 	.describe h1 {
-		margin-top: 40px;
-		text-align: center;
+		margin-top: 150px;
+		text-align: left;
 	}
 	.describe p {
-		text-align: center;
-	}
-	.describe button {
-		float: none;
+		text-align: left;
 	}
 	.mySlides1 h4 {
-		top: 14vh;
-		left: -52vw;
+		top: -90px;
+		left: -90vw;
 	}
 	.first_slides_nav {
-		margin-top: 60px;
-		left: 45.55vw;
+		margin-top: -280px;
 	}
 	
 	/*our_community*/
@@ -947,6 +955,7 @@ input::placeholder {
 	.mySlides2 img {
     	width: 500px;
     	height: 300px;
+    	margin-bottom: 10px;
     	object-fit: cover;
    }
 	
@@ -980,8 +989,6 @@ input::placeholder {
 		float: left;
 		margin-left: 10vw;
 	}
-	
-
 }
 
 @media (max-width: 768px) {
@@ -991,22 +998,18 @@ input::placeholder {
 	}
 	
 	/*design*/
-	.design_phone {
-		height: 80vh;
-	}
-	.img_phone {
-		left: 28vw;
-	}
 	.mySlides1 img {
-		left: 31.7vw;
+		top: 16.9vh;
+		left: 25.6vw;
 	}
 	.mySlides1 h4 {
-		top: 27vh;
+		margin-top: 85%;
+		left: -91vw;
 	}
 	.first_slides_nav {
-		margin-top: 40px;
+		margin-top: -240px;
 	}
-	
+
 	/*our_community*/
 	.our_community {
 		height: 100vh;
@@ -1091,31 +1094,31 @@ input::placeholder {
 		min-height: 900px;
 	}
 	.img_phone {
-		left: 8vw;
+		left: 6vw;
 		margin-top: 52px;
 	}
 	.mySlides1 img {
-		left: 14.8vw;
-	}
-	.describe h1 {
-		margin-top: 50px;
-		text-align: center;
-	}
-	.describe p {
-		padding: 5px 10px;
+		left: 4.9vw;
+		top: 23vh;
 	}
 	.mySlides1 h4 {
-		top: 65vh;
-		left: -54vw;
+		top: 40%;
+		left: -88vw;
 	}
 	.first_slides_nav {
-		margin-top: 50px;
-		left: 41vw;
+		margin-top: -100px;
+	}
+	.describe h1 {
+		margin-top: 100px;
+		text-align: left;
+	}
+	.describe p {
+		float: left;
 	}
 	
 	/*our_community*/
 	.our_community {
-		min-height: 800px;
+		min-height: 830px;
 	}
 	.gallery {
 		width: 360px;
@@ -1133,17 +1136,16 @@ input::placeholder {
 
 @media (max-width: 385px) {
     
-   /*design*/
-	.img_phone {
-		left: 5vw;
-	}
+   	/*design*/
 	.mySlides1 img {
-		left: 12.2vw;
+		left: 5.3vw;
+		top: 26.6vh;
 	}
 	.mySlides1 h4 {
-		top: 82vh;
+		top: 44%;
+		/*left: -88vw;*/
 	}
-	
+			
    	/*our_community*/
 	.our_community {
 		min-height: 800px;
@@ -1178,12 +1180,10 @@ input::placeholder {
 
 @media (max-width: 376px) {
     
-   /*design*/
+   	/*design*/
 	.mySlides1 img {
-		left: 12.4vw;
-	}
-	.mySlides1 h4 {
-		top: 76vh;
+		left: 5.5vw;
+		top: 25.5vh;
 	}
 	
    	/*our_community*/
@@ -1203,15 +1203,14 @@ input::placeholder {
     
    /*design*/
 	.mySlides1 img {
-		left: 12.8vw;
+		left: 6vw;
+		top: 26.5vh;
 	}
 	.mySlides1 h4 {
-		top: 86vh;
+		top: 47%;
+		left: -87vw;
 	}
-	.first_slides_nav {
-		margin-top: 35px;
-	}
-	
+		
    	/*our_community*/
 	.our_community {
 		min-height: 800px;
@@ -1248,6 +1247,10 @@ input::placeholder {
 @media (max-width: 321px) {
     
    /*jumbo*/
+   .jumbotron {
+   		padding-top: 60px;
+   		min-height: 600px;
+   }
    .jumbotron h1 {
 		font-size: 30px;
 		letter-spacing: 6px;
@@ -1259,7 +1262,9 @@ input::placeholder {
 	.jumbotron i {
 		padding: 5px;
 	}
-
+	.icon {
+		top: 98vh;
+	}
    /*simple_photo*/
 	.image {
 		height: 270px;
@@ -1271,30 +1276,26 @@ input::placeholder {
 	}
 
    /*design*/
-	.design_phone {
-		min-height: 950px;
-	}
-	.img_phone {
-		left: 1vw;
-	}
 	.img_phone img {
 		width: 95%;
 	}
 	.mySlides1 img {
-		width: 234.1px;
-		left: 8.8vw;
-		top: 49vw;
+		width: 227px;
+		left: 6vw;
+		top: 33.7vh;
 	}
 	.mySlides1 h4 {
-		top: 100vh;
+		top: 42%;
+		left: -89vw;
 	}
 	.first_slides_nav {
-		margin-top: 45px;
+		margin-top: -105px;
 	}
-	.text_describe h1 {
-		margin-top: 10px;
+	.describe h1 {
+		margin-top: 50px;
 	}
-   	/*our_community*/
+
+	/*our_community*/
 	.our_community {
 		min-height: 730px;
 	}
