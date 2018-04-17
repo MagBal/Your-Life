@@ -198,7 +198,6 @@ body {
 	text-transform: uppercase;
 	border: none;
 	float: left;
-	/*margin-left: -200px;*/
 }
 .simple button:hover {
 	background-color: #D0ECE6;
@@ -229,7 +228,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	bottom: 0;
-	left: 21.1vw;
+	left: 20.8vw;
 	width: 261px;
 }
 .mySlides1, .mySlides2 {
