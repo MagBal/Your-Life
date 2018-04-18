@@ -554,6 +554,7 @@ input::placeholder {
 	
 	/*sumple photo*/
 	.simple img {
+		width: 650px;
 		left: 43%;
 	}
 
@@ -562,10 +563,10 @@ input::placeholder {
 		left: 19.9vw;
 	}
 	.mySlides1 img {
-		left: 21.75vw;
+		left: 21.8vw;
 	}
 	.mySlides1 h4 {
-		top: 20px;
+		top: 40px;
 	}
 	.first_slides_nav {
 		margin-top: 100px;
