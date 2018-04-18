@@ -552,15 +552,20 @@ input::placeholder {
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 	
+	/*sumple photo*/
+	.simple img {
+		left: 43%;
+	}
+
 	/*design*/
 	.img_phone {
 		left: 19.9vw;
 	}
 	.mySlides1 img {
-		left: 21.6vw;
+		left: 21.75vw;
 	}
 	.mySlides1 h4 {
-		top: -10px;
+		top: 20px;
 	}
 	.first_slides_nav {
 		margin-top: 100px;
